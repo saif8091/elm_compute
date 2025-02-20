@@ -8,9 +8,9 @@ PRO rad2ref_batch;, cal_file, rad_path, output_file_path
   
   COMPILE_OPT IDL2
   format = 'Envi'
-  cal_file = 'S:\ms4667\Geneva Beets 2022\20220628_2nd\nano_1440\calpanels\cal_20220628_1440_2nd.cff'
-  rad_path = 'S:\ms4667\Geneva Beets 2022\20220628_2nd\nano_1440\spatially corrected radiance\'
-  output_file_path = 'S:\ms4667\Geneva Beets 2022\20220628_2nd\nano_1440\reflectance\'
+  cal_file = 'S:\ms4667\Geneva Beets 2021\20210802_5th\Nano\cal_panel_tie_points\cal_5th_flight_4_point.cff'
+  rad_path = 'S:\ms4667\Geneva Beets 2021\20210802_5th\Nano\New folder\'
+  output_file_path = 'S:\ms4667\Geneva Beets 2021\20210802_5th\Nano\sp_cor_reflectance\'
   
   
   rad_files = FILE_SEARCH(rad_path+'*.hdr')
